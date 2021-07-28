@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.mouse {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.3s;
+  background: aqua;
+}

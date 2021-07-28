@@ -1,9 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# ide
+.idea
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+npm-debug.log*
+yarn-error.log
+yarn.lock
 
 # testing
 /coverage
@@ -18,6 +24,4 @@
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
